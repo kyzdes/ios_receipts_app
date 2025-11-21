@@ -1,0 +1,71 @@
+# Backend
+backend/node_modules/
+backend/.env
+backend/uploads/
+backend/*.log
+backend/coverage/
+backend/dist/
+
+# iOS
+ios/build/
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcodeproj/project.xcworkspace/xcuserdata/
+ios/*.xcworkspace/xcuserdata/
+ios/DerivedData/
+ios/.DS_Store
+ios/*.swp
+ios/*~.nib
+ios/Pods/
+ios/Podfile.lock
+
+# Xcode
+xcuserdata/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Database
+database/backups/
+*.sql
+*.sql.gz
+
+# Docker
+docker-compose.override.yml
+
+# System
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Certificates
+nginx/ssl/*.pem
+nginx/ssl/*.key
