@@ -1,8 +1,20 @@
-# Recipe Manager - Full-Stack iOS Application
+# Recipe Manager - Full-Stack Application
 
-A comprehensive recipe management system with an iOS frontend built in SwiftUI and a Node.js/Express backend with PostgreSQL database.
+A comprehensive recipe management system with iOS (SwiftUI), Web (React), and Backend (Node.js/Express) applications.
 
 ## Features
+
+### Web Application ⭐ NEW!
+- 🎨 Beautiful, responsive UI with Tailwind CSS
+- 🌙 Dark mode support
+- 📱 Mobile-first responsive design
+- ⚡ Fast and optimized with Vite
+- 🔐 Secure JWT authentication
+- 📖 Full recipe CRUD operations
+- 🔍 Real-time search functionality
+- 📁 Categories and folder management
+- 🍽️ Daily featured recipe showcase
+- 🎯 TypeScript for type safety
 
 ### iOS Application
 - 📱 Modern SwiftUI interface with dark mode support
@@ -40,6 +52,15 @@ recipe-app/
 │   │   ├── services/      # Business logic
 │   │   ├── utils/         # Utilities (upload, etc.)
 │   │   └── server.js      # Main server file
+│   ├── Dockerfile
+│   └── package.json
+├── web/                    # React Web Application ⭐ NEW!
+│   ├── src/
+│   │   ├── components/    # Reusable components
+│   │   ├── pages/         # Page components
+│   │   ├── services/      # API services
+│   │   ├── stores/        # Zustand state management
+│   │   └── types/         # TypeScript types
 │   ├── Dockerfile
 │   └── package.json
 ├── ios/                    # iOS SwiftUI application
